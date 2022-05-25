@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T08:25:03.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="LI4qyxgH7AQCQyVONDEF" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-25T08:26:37.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="lLSCqRpKFk1rgV3TiRZV" version="18.1.2" type="github">
   <diagram id="dh183BxA5PaySKPDHkof" name="Page-1">
-    <mxGraphModel dx="981" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,14 +31,14 @@
         <mxCell id="TNsMiLaU0lePPs346AUm-12" value="prediff=0&lt;br&gt;curdiff=0" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="490" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TNsMiLaU0lePPs346AUm-14" value="prediff=0&lt;br&gt;curdiff&amp;gt;0&lt;br&gt;峰值" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="490" width="60" height="50" as="geometry" />
+        <mxCell id="TNsMiLaU0lePPs346AUm-14" value="prediff=0&lt;br&gt;curdiff&amp;gt;0&lt;br&gt;峰值&lt;br&gt;跟新prediff" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="135" y="485" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TNsMiLaU0lePPs346AUm-15" value="prediff&amp;gt;0&lt;br&gt;curdiff&amp;lt;0&lt;br&gt;峰值" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="340" width="60" height="50" as="geometry" />
+        <mxCell id="TNsMiLaU0lePPs346AUm-15" value="prediff&amp;gt;0&lt;br&gt;curdiff&amp;lt;0&lt;br&gt;峰值&lt;br&gt;更新prediff" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="185" y="335" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TNsMiLaU0lePPs346AUm-16" value="prediff&amp;lt;00&lt;br&gt;curdiff&amp;gt;0&lt;br&gt;峰值" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="245" y="510" width="70" height="50" as="geometry" />
+        <mxCell id="TNsMiLaU0lePPs346AUm-16" value="prediff&amp;lt;00&lt;br&gt;curdiff&amp;gt;0&lt;br&gt;峰值&lt;br&gt;更新prediff" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="245" y="505" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TNsMiLaU0lePPs346AUm-17" value="最右边的值默认为峰值&lt;br&gt;因为要判断nums[i]是否为峰值&lt;br&gt;必须要计算nums[i+1]-nums[i]&lt;br&gt;来获得curdiff" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="380" width="170" height="60" as="geometry" />
@@ -61,16 +61,16 @@
         <mxCell id="TNsMiLaU0lePPs346AUm-24" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.8;dx=26;direction=east;notch=0;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="280" y="470" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="hvBrD6EKB_GbKD9SIR8_-1" value="prediff&amp;gt;0&lt;br&gt;curdiff&amp;gt;0" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hvBrD6EKB_GbKD9SIR8_-1" value="prediff&amp;gt;0&lt;br&gt;curdiff&amp;gt;0" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="460" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hvBrD6EKB_GbKD9SIR8_-2" value="prediff&amp;gt;0&lt;br&gt;curdiff=0&lt;br&gt;curdiff只有大于或小于零才起作用&lt;br&gt;等于零没用" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hvBrD6EKB_GbKD9SIR8_-2" value="prediff&amp;gt;0&lt;br&gt;curdiff=0&lt;br&gt;curdiff只有大于或小于零才起作用&lt;br&gt;等于零没用" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="310" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hvBrD6EKB_GbKD9SIR8_-3" value="prediff&amp;gt;0&lt;br&gt;curdiff&amp;gt;0" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hvBrD6EKB_GbKD9SIR8_-3" value="prediff&amp;gt;0&lt;br&gt;curdiff&amp;gt;0" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=default;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="390" y="420" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hvBrD6EKB_GbKD9SIR8_-4" value="Results = 4" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hvBrD6EKB_GbKD9SIR8_-4" value="Results = 4" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="290" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
